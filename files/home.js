@@ -1,7 +1,4 @@
 // JavaScript Document
-
-
-;
 var ROOT_URL ='';
 $(function(){
 	
@@ -26,9 +23,9 @@ $(function(){
 	
 	julying.gridMenu.menu = Array(		
 		{ name : 'about-me' ,  	pos : rand( 1 , 15 )  },
-		{ name : 'contact-me' , pos : rand( 20 ,35 )  },
-		{ name : 'blog' ,  		pos : rand( 40 , 55 )  },						
-		{ name : 'link' , 		pos : rand( 60 , 70 ) }
+		{ name : 'contact-me' , pos : rand( 20 ,30 )  },
+		{ name : 'blog' ,  		pos : rand( 35 , 45 )  },						
+		{ name : 'link' , 		pos : rand( 50 , 60 ) }
 	); 
 	julying.gridMenu.init('#julyingGridMenu') ;
 	$('strong[name=replace]').each(function(){
